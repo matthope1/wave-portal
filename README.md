@@ -8,3 +8,4 @@ Users can call the Wave function on the front end by submitting a message. Their
 and the smart contract contains a pseudorandom lottery. There's a 50% chance that sending a message will return some eth to the caller of the wave function.
 Try it out!
 
+![websitessupdated](https://user-images.githubusercontent.com/17298648/138626756-d2a5f1ff-78a3-440a-94bd-5352ab4e40d3.png)
