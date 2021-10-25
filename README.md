@@ -1,15 +1,10 @@
-# Basic Sample Hardhat Project
+# Hardhat Project: My Wave Portal
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic web3 application where users can interact with the ethereum blockchain via this website: https://waveportal.matthope1.repl.co/.
 
-Try running some of the following tasks:
+(rinkeby testnet)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Users can call the Wave function on the front end by submitting a message. Their message will be stored on chain
+and the smart contract contains a pseudorandom lottery. There's a 50% chance that sending a message will return some eth to the caller of the wave function.
+Try it out!
+
